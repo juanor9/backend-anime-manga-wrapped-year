@@ -1,7 +1,5 @@
-import test from './api/test/index';
+import test from './api/test/index.js';
 
-function routes(app) {
+export default function routes(app) {
   app.use('/api/test', test);
 }
-
-export default routes;

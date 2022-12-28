@@ -1,4 +1,4 @@
-import { getTest } from './test.services';
+import getTest from './test.services.js';
 
 export default async function handleGetTest(res) {
   try {
