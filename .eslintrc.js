@@ -9,7 +9,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    ecmaFeatures: {
+      js: true,
+    },
   },
   rules: {
+    'import/extensions': 'always',
   },
 };
